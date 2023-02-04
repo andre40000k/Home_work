@@ -29,6 +29,11 @@
 
                 Console.Write("Enter end of range: ");
                 rengeEnd = int.Parse(Console.ReadLine());
+                
+                if(rengeEnd < rengeStart)
+                {
+                    throw new Exception();
+                }
             }
             catch (Exception)
             {
