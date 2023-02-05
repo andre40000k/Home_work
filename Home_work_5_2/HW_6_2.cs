@@ -1,6 +1,6 @@
-﻿namespace Home_work_5_2
+﻿namespace Home_work_6_2
 {
-    internal class HW_5_2
+    internal class HW_6_2
     {
         enum Months
         {
@@ -19,7 +19,7 @@
         }
         static void Main(string[] args)
         {
-            // Task 5_2
+            // Task 6_2
             // Пользователь вводит прибыль фирмы за год(12 месяцев).
             // Необходимо определить месяц, в котором прибыль была максимальна и месяц,
             // в котором прибыль была минимальна.

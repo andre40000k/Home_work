@@ -1,12 +1,12 @@
 ﻿using System.Reflection.Metadata.Ecma335;
 
-namespace Home_work_5_3
+namespace Home_work_6_3
 {
-    internal class HW_5_3
+    internal class HW_6_3
     {
         static void Main(string[] args)
         {
-            // Task 5_3
+            // Task 6_3
             // Сжать(сдвинуть элементы) массив, удалив из него все 0,
             // и заполнить освободившиеся справа элементы значениями -1.
             // (нужно сделать через пересоздание массива)
