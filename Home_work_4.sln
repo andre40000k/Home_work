@@ -7,11 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Home_work_4_1", "Home_work_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Home_work_4_2", "Home_work_4_2\Home_work_4_2.csproj", "{27BDAB64-CF00-419F-A065-1305375DDD73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Home_work_5_1", "Home_work_5_1\Home_work_5_1.csproj", "{97554BDB-1B57-44C0-83D0-12BA31812693}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Home_work_6_1", "Home_work_5_1\Home_work_6_1.csproj", "{97554BDB-1B57-44C0-83D0-12BA31812693}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Home_work_5_2", "Home_work_5_2\Home_work_5_2.csproj", "{7377260B-33C6-429A-B1E1-2D3DB26CC9E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Home_work_6_2", "Home_work_5_2\Home_work_6_2.csproj", "{7377260B-33C6-429A-B1E1-2D3DB26CC9E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Home_work_5_3", "Home_work_5_3\Home_work_5_3.csproj", "{8FB6651C-DDB0-4191-8F96-A23DE1AA8043}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Home_work_6_3", "Home_work_5_3\Home_work_6_3.csproj", "{8FB6651C-DDB0-4191-8F96-A23DE1AA8043}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

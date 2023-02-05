@@ -1,6 +1,6 @@
 ﻿namespace Home_work_5_1
 {
-    internal class HW_5_1
+    internal class HW_6_1
     {
         enum Months
         {
@@ -13,7 +13,7 @@
         }
         static void Main(string[] args)
         {
-            // Task 5_1
+            // Task 6_1
             // Написать, программу, которая вычисляет прибыль фирмы за 6 месяцев.
             // Пользователь вводит прибыль фирмы за каждый месяц.
 
