@@ -1,4 +1,4 @@
-﻿namespace Home_work_5_1
+﻿namespace Home_work_6_1
 {
     internal class HW_6_1
     {
