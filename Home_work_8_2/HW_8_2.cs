@@ -2,12 +2,20 @@
 {
     internal class HW_8_2
     {
-        static string OutputStars(int numberStars, ref string starsWriting)
-        {
-            if(numberStars == 1) 
-                return starsWriting;
+        //static string OutputStarsVersOne(int numberStars, ref string starsWriting)
+        //{
+        //    if(numberStars == 1) 
+        //        return starsWriting;
 
-            return starsWriting + OutputStars(numberStars-1, ref starsWriting);
+        //    return starsWriting + OutputStarsVersOne(numberStars - 1, ref starsWriting);
+        //}
+
+        static string OutputStarsVersTwo(int numberStars)
+        {
+            if (numberStars == 0)
+                return "";
+
+            return "*" + OutputStarsVersTwo(numberStars - 1);
         }
         static void GettingNumbers(out int inputNumberStars)
         {
@@ -37,7 +45,9 @@
 
             GettingNumbers(out numberStars);
 
-            Console.WriteLine($"\nStarsssssss!!!!\n\n{OutputStars(numberStars, ref stars)}");
+            //Console.WriteLine($"\nStarsssssss!!!!\n\n{OutputStarsVersOne(numberStars, ref stars)}");
+
+            Console.WriteLine($"\nStarsssssss!!!!\n\n{OutputStarsVersTwo(numberStars)}");
 
 
         }
