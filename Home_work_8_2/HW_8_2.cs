@@ -49,7 +49,7 @@
 
             //Console.WriteLine($"\nStarsssssss!!!!\n\n{OutputStarsVersTwo(numberStars)}");
 
-            Console.WriteLine(stars);
+            
 
         }
     }
