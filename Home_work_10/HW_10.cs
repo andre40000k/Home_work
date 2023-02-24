@@ -73,25 +73,6 @@ namespace Home_work_10
             }
 
             Console.WriteLine('\n' + new string('=', 80) + '\n');
-
-
-            //var names = new List<string>() {
-            //    "Vasya",
-            //    "Petya",
-            //    "Anton",
-            //    "qq",
-            //    "www",
-            //    "e",
-            //    "rrrr"
-            //};
-
-            //names[names.Count() - 1] = "wwwwwww";
-            //Console.WriteLine(names[names.Count() - 1]);
-
-            //foreach (var item in names)
-            //{
-            //    Console.WriteLine(item);
-            //}
         }
     }
 }
