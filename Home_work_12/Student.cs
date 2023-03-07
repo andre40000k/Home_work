@@ -15,12 +15,7 @@
         {
             UsefulMethods.Delimiter('*', 60);
             Console.WriteLine("Information about studen {0}." + "\n" + ShowPersonInformation() + 
-                "\nNumber record: {1}", _Name, _numberStudRecord);
-            
-
-        }     
-
-
-
+                "\nNumber record: {1}", _Name, _numberStudRecord);  
+        } 
     }
 }

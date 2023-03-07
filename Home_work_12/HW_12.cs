@@ -134,14 +134,12 @@ namespace Home_work_12
             new Student("Варварюк", "Инна", "Темофеевна", 18, "Жен", randomStudeRecord()),
             new Student("Всеволод", "Михаил", "Игорович", 18, "Муж", randomStudeRecord()),
             new Student("Вармилион", "Фёдор", "Игнатович", 19, "Муж", randomStudeRecord())
-
         };
 
         public static Teacher[] teachers =
         {
             new Teacher("Пурпулит", "Олег", "Анатольевич", 65, "Муж", "Физика"),
             new Teacher("Кропива", "Наталья", "Владимировна", 50, "Жен", "Математика")
-
         };
     }
 }
