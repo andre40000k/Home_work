@@ -1,17 +1,19 @@
 ﻿namespace Home_work_12
 {
-    public class Teacher : Person
+    sealed class Teacher : Person
     {
-        protected string _IdTaughtSubject;
+        protected string _idTaughtSubject;
         public Teacher(string surname, string name, string lastName, int age, string gender, string idSubject) 
             :base(surname, name, lastName, age, gender)
         {
-            _IdTaughtSubject = idSubject;
+            _idTaughtSubject = idSubject;
         }
 
+        public string _IdTaughtSubject { get { return _idTaughtSubject; } }
         public void ShowTeacherInformation()
         {
-            Console.WriteLine("Information about teacher {0}." + "\n" + ShowPersonInformation() + "\nSubject: {1}", _Name, _IdTaughtSubject);
+            UsefulMethods.Delimiter('*', 60);
+            Console.WriteLine("Information about teacher {0}." + "\n" + ShowPersonInformation() + "\nSubject: {1}", _Name, _idTaughtSubject);
         }
     }
 }

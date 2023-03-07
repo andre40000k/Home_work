@@ -2,29 +2,36 @@
 {    
     public class Person
     {
-        protected string _Surname;
-        protected string _Name;
-        protected string _LastName;
-        protected int _Age;
-        protected string _Gender;
+        private string _surname;
+        private string _name;
+        private string _lastName;
+        private int _age;
+        private string _gender;
         private string? informationPerson;
+
 
         public Person(string surname, string name, string lastName, int age, string gender)
         {
-            _Surname = surname;
-            _Name = name;
-            _LastName = lastName;
-            _Age = age;
-            _Gender = gender;
+            _surname = surname;
+            _name = name;
+            _lastName = lastName;
+            _age = age;
+            _gender = gender;
         }
+
+        public string _Surname { get { return _surname;} }
+        public string _Name { get { return _name; } }
+        public string _LastName { get { return _lastName;} }
+        public int _Age { get { return _age;} }
+        public string _Gender { get { return _gender;} }
 
         public string ShowPersonInformation()
         {
-            informationPerson = $"Full name: {_Surname} {_Name} {_LastName}" +
-                $"\nAge: {_Age}" + 
-                $"\nSex: {_Gender}";
+            informationPerson = $"Full name: {_surname} {_name} {_lastName}" +
+                $"\nAge: {_age}" + 
+                $"\nSex: {_gender}";
 
             return informationPerson;
-        }
+        }        
     }
 }

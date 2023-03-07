@@ -2,14 +2,15 @@
 {
     public class Academy
     {
-        private string _Name_Of_Academy;
+        private string _nameOfAcademy;
 
         public Academy(string nameOfAcademy = "Very important things") 
         {
-            _Name_Of_Academy = nameOfAcademy;
-
+            _nameOfAcademy = nameOfAcademy;
         }
 
-        public void Print() => Console.WriteLine("Name of academy: \"{0}\"", _Name_Of_Academy);
+        public string _NameOfAcademy { get { return _nameOfAcademy; } }
+
+        public void PrintNameAcademy() => Console.WriteLine("\nName of academy: \"{0}\"", _nameOfAcademy);
     }
 }

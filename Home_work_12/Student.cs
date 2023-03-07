@@ -1,17 +1,26 @@
 ﻿namespace Home_work_12
 {
-    public class Student : Person
+    sealed class Student : Person
     {
-        protected int _NumberRecord;
-        public Student(string surname, string name, string lastName, int age, string gender, int numberRecord) 
+        protected int _numberStudRecord;
+        public Student(string surname, string name, string lastName, int age, string gender, int numberStudRecord) 
             :base(surname, name, lastName, age, gender)
         {
-            _NumberRecord = numberRecord;
+            _numberStudRecord = numberStudRecord;
         }
+
+        public int _NumberStudRecord { get { return _numberStudRecord; } }
 
         public void ShowStudetInformation()
         {
-            Console.WriteLine("Information about studen {0}." + "\n" + ShowPersonInformation() + "\nNumber record: {1}", _Name, _NumberRecord );
-        }
+            UsefulMethods.Delimiter('*', 60);
+            Console.WriteLine("Information about studen {0}." + "\n" + ShowPersonInformation() + 
+                "\nNumber record: {1}", _Name, _numberStudRecord);
+            
+
+        }     
+
+
+
     }
 }
